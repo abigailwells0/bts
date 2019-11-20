@@ -1,0 +1,208 @@
+html{
+	height:100%;
+	width:100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: flex;
+	background-image: url("images/btsrosebowl1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.contain-image{
+	max-height:90%;
+	max-width:90%;
+}
+
+.red{
+	background-color:#d66d4d;
+}
+
+.yellow{
+	background-color:#edb361;
+}
+
+.column {
+	height:100%;
+	width: calc(100%/3);
+	display: block;
+}
+
+
+.small-row {
+	height:15%;
+	width:100%;
+	display:block;
+}
+.small-row1 {
+	height:15%;
+	width:100%;
+	display:block;
+}
+
+
+.big-row{
+	height:35%;
+	width:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.box1{
+	height:100%;
+	width:50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.jk{
+	height:150%;
+	width:25%;
+	content: url("images/JK.png");
+}
+
+.title{
+	height:100%;
+	width:150%;
+	content: url("images/disko.png");
+}
+
+.video{
+	height:80%;
+	width:85%;
+	background-color:#9cc497;
+}
+
+.gmail{
+	height:80%;
+	width:80%;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.donald{
+	height:45%;
+	width:100%;
+}
+
+.micdrop{
+	height:60%;
+	width:60%;
+	content: url("images/mic.png");
+}
+
+.mots{
+	content: url("images/mots.png");
+	height:60%;
+	width:100%;
+}
+.urgent {
+	/*content: url("images/donald.png");*/
+	height:95%;
+}
+
+.secured{
+	content: url("images/secured.png");
+}
+
+.title2{
+	height:25%;
+	width:90%;
+	display:none;
+}
+
+@media only screen and (max-width: 950px){
+
+
+	.title2{
+		display:flex;
+		content: url("images/disko.png");
+	}
+
+	.jk1{
+		height:150%;
+		width:25%;
+		content: url("images/JK.png");
+	}
+	.jk{
+		display:none;
+		height:100%;
+		width:15%;
+		background-color:#67e4f5;
+		/*content: url("images/JK.jpg");*/
+	}
+		
+	.title{
+		display:none;
+		height:100%;
+		width:100%;
+		background-color:#ebaaa0;
+	}
+
+	.urgent{
+		/*content: url("images/donald.png");*/
+		height:75%;
+	}
+
+
+}
+
+@media only screen and (max-width:750px){
+	
+	body{
+		display:block;
+	}
+	
+	.column {
+		background-color:#b19cd9;
+		height:calc(100%/2);
+		width: 100%;
+		display: block;
+	}
+	.small-row1 {
+		display:none;
+	}
+	
+	.title2{
+		display:none;
+	}
+	
+	.title{
+	display:flex;
+	height:100%;
+	width:100%;
+	}
+
+	.small-row {
+		height:25%;
+		display:flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.big-row{
+		height: calc(100%/2);
+	}
+
+	.title3{
+		content:url("images/disko.png");
+		max-height:90%;
+		max-width:90%;
+	}
+	
+	.jk1{
+		height:100%;
+		width:15%;
+		content: url("images/JK.png");
+	}
+	
+}
